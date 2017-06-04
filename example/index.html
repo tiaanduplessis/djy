@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>djy - example</title>
+  <style>
+    .red {
+      color: tomato;
+    }
+
+    .blue {
+      color: cadetblue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Header</h1>
+  <ul>
+    <li class="blue">One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+  <div class="container"></div>
+  <script src="../dist/djy.min.js"></script>
+  <script>
+    djy(function () {
+      console.log('Docment is ready')
+      djy('h1').addClass('red')
+      console.log(djy('ul').children())
+      djy('ul li').removeClass('blue')
+    })
+  </script>
+</body>
+
+</html>

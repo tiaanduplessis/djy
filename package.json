@@ -1,0 +1,34 @@
+{
+  "name": "djy",
+  "version": "1.0.0",
+  "description": "jQueryish DOM/Event library",
+  "main": "dist/djy.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard src/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "build": "bili"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/djy.git"
+  },
+  "keywords": [
+    "jquery",
+    "dom",
+    "events",
+    "selectors"
+  ],
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiaanduplessis/djy/issues"
+  },
+  "homepage": "https://github.com/tiaanduplessis/djy#readme",
+  "devDependencies": {
+    "bili": "~0.15.5",
+    "jest": "~20.0.4",
+    "prettier": "~1.4.2",
+    "standard": "~10.0.2"
+  }
+}
