@@ -1,5 +1,7 @@
 # djy - WIP
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/djy.svg)](https://greenkeeper.io/)
+
 A lightweight jQueryish DOM facade for modern browsers (IE10+).
 
 ### Install - TODO
