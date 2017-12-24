@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/tiaanduplessis/djy#readme",
   "devDependencies": {
-    "bili": "~0.19.0",
-    "jest": "~21.2.1",
+    "bili": "~0.18.1",
+    "jest": "~22.0.0",
     "prettier": "~1.7.4",
     "standard": "~10.0.2"
   }
