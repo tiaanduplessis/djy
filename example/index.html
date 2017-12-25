@@ -24,13 +24,17 @@
     <li>Three</li>
   </ul>
   <div class="container"></div>
-  <script src="../dist/djy.min.js"></script>
+  <script src="../dist/djy.umd.js"></script>
   <script>
     djy(function () {
       console.log('Docment is ready')
       djy('h1').addClass('red')
       console.log(djy('ul').children())
       djy('ul li').removeClass('blue')
+
+      djy('ul li').each(elem => {
+        console.log(elem)
+      })
     })
   </script>
 </body>
