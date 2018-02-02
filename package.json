@@ -29,7 +29,7 @@
   "homepage": "https://github.com/tiaanduplessis/djy#readme",
   "devDependencies": {
     "jest": "~22.1.0",
-    "microbundle": "^0.2.4",
+    "microbundle": "^0.3.0",
     "standard": "~10.0.3"
   }
 }
