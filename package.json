@@ -30,6 +30,6 @@
   "devDependencies": {
     "jest": "~22.1.0",
     "microbundle": "^0.3.0",
-    "standard": "~10.0.3"
+    "standard": "~11.0.0"
   }
 }
