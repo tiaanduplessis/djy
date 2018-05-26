@@ -7,9 +7,9 @@ export const hasSelector = function (element, selector) {
 }
 
 export const onReady = (func) => {
-    if (document.readyState !== 'loading') {
-      func()
-    } else {
-      document.addEventListener('DOMContentLoaded', func)
-    }
+  if (document.readyState !== 'loading') {
+    func()
+  } else {
+    document.addEventListener('DOMContentLoaded', func)
   }
+}

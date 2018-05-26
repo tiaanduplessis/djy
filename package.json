@@ -6,8 +6,8 @@
   "main": "dist/djy.js",
   "scripts": {
     "test": "jest",
-    "lint": "standard src/*.js",
-    "lint:fix": "npm run lint -- --fix",
+    "coverage": "jest --coverage",
+    "lint": "standard --fix src/*.js",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
@@ -28,8 +28,14 @@
   },
   "homepage": "https://github.com/tiaanduplessis/djy#readme",
   "devDependencies": {
-    "jest": "~22.1.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.0.0",
     "microbundle": "^0.4.4",
-    "standard": "~11.0.0"
+    "standard": "~11.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
