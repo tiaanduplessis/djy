@@ -1,6 +1,6 @@
 {
   "name": "djy",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "jQueryish DOM/Event library",
   "source": "src/index.js",
   "main": "dist/djy.js",
